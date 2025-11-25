@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI & Digital Learning Guide</title>
+
+<!-- TikTok Pixel -->
+<script>
+!function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[
+    "track","identify","instances","debug","on","off","once","ready","alias","group","enableBatch"
+    ],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
+    for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+    ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+    )ttq.setAndDefer(e,ttq.methods[n]);return e};
+    ttq.load=function(e,n){
+        var i="https://analytics.tiktok.com/i18n/pixel/events.js";
+        ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=n||{},
+        ttq._o=ttq._o||{},ttq._o[e]=n||{};
+        var o=d.createElement("script");
+        o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;
+        var a=d.getElementsByTagName("script")[0];
+        a.parentNode.insertBefore(o,a)
+    };
+}(window, document, 'ttq');
+
+ttq.load('YOUR-PIXEL-ID-HERE');
+ttq.track('PageView');
+</script>
+<!-- End TikTok Pixel -->
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        color: #222;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: auto;
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 14px 28px;
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 6px;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #333;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <h1>AI & Digital Learning Guide</h1>
+        <p>
+            A complete, structured digital education book for students, parents, and teachers.
+            Covers AI, computers, digital skills, and practical activities in a clean chronological path.
+        </p>
+
+        <a class="btn" href="https://vacuumist3.gumroad.com/l/lnabor" onclick="ttq.track('ClickButton')">
+            Go to Product on Gumroad
+        </a>
+    </div>
+</body>
+</html>
